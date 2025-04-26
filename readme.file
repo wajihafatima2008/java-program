@@ -1,0 +1,24 @@
+lass calculator{
+    public Add (int a ,int b){
+        return a+b;
+    }
+    public Sub (int a ,int b){
+        return a-b;
+    }
+    public Mult(int a,int b){
+        return a*b;
+    }
+    public Div(int a,int b){
+        return a/b;
+    }
+}
+public Class SRPExample{
+    
+    public static void main(String[]args) {
+        calculator cal= new calculator();
+        System.out.println("addition of two number="+cal.Add(10,20));
+        System.out.println("subscription of two number="+cal.Sub(20,10));
+        System.out.println("multiplication of two number="+cal.Mult(10,20));
+        System.out.println("division of two number="+cal.Div(10,20));
+    }
+}
